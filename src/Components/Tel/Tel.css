@@ -1,0 +1,29 @@
+div.tel {
+    background-color: #005db1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 40px auto;
+}
+div.tel-container {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.tel-container h2 {
+    text-align: center;
+    font-size: 24px;
+}
+div.tel-container p {
+    text-align: center;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 900px){
+    div.tel {
+        margin: 20px auto;
+    }
+}

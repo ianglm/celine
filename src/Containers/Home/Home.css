@@ -1,0 +1,8 @@
+section.page div.home.first.image {
+    width: 50%;
+    max-height: 400px;
+}
+section.page div.home.text {
+    max-height: 300px;
+    margin-top: 5%;
+}

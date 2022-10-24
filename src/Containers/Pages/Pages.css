@@ -1,0 +1,108 @@
+strong {
+  font-weight: bold;
+}
+
+section.page {
+  display: flex;
+  justify-content: center;
+}
+section.page div.container {
+  width: 95%;
+}
+
+section.page div.double-colonne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: justify;
+}
+div.double-colonne a {
+  color: #005db1;
+  font-weight: bold;
+}
+section.page div.text {
+  font-weight: 400;
+  color: #6f6f6f;
+  letter-spacing: 0.1px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0 0 0;
+  max-height: 450px;
+}
+
+section.page div.text h2 {
+  text-align: start;
+  font-size: 24px;
+}
+
+section.page div.text p {
+  width: 95%;
+  line-height: 24px;
+  font-size: 0.9rem;
+  padding-top: 20px;
+}
+
+section.page div.text.second {
+  padding-left: 50px;
+}
+
+section.page div.image {
+  width: 60%;
+}
+
+section.page div.first.image {
+  margin: 30px 30px 20px 0;
+}
+
+section.page div.second.image {
+  margin: 40px 0 0 0;
+  max-height: 350px;
+}
+
+section.page div.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1400px) {
+    section.page div.text {
+    width: 70%;
+  }
+  section.page div.double-colonne {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    section.page div.double-colonne {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  section.page div.text {
+    width: 100%;
+    padding: 0;
+  }
+  section.page div.text.second {
+    padding-left: 0;
+  }
+  section.page div.image {
+    width: 100%;
+    margin: 20px auto !important;
+    display: flex;
+    justify-content: center;
+  }
+  section.page div.image img {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    div.double-colonne {
+        margin-top: 20px;
+    }
+}

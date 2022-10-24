@@ -1,0 +1,43 @@
+.article-section {
+  padding: 100px 50px;
+}
+.article-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.article-section h1 {
+    text-align: center;
+    color: #000;
+}
+h2.article-Title {
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 28px;
+}
+p.article-Content {
+    margin: 0 30px 10px 0px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.article-section .date {
+    color: #a9a9a9;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.article-section div.image {
+    display: flex;
+    align-items: center;
+}
+
+.article-section div.image img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
